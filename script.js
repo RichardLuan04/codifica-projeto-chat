@@ -1,9 +1,9 @@
 var usuario1 = []
 var usuario2 = []
 
-function Mostrar_mensagem(name) {
+function Mostrar_mensagem(name,user) {
     var mensagem = document.getElementById(name).value
-    usuario1.push(mensagem)
+    user.push(mensagem)
 
     var li = document.createElement("li")
     li.className = name
